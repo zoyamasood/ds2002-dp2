@@ -1,8 +1,8 @@
 # Data Project 2: Import JSON to MongoDB
 
-In this data project you will write a single file of code to import a bundle of fifty (50) separate JSON files into a new collection within a MongoDB database.
+In this data project you will write a single file of code to import a bundle of fifty (50) separate JSON files into a new collection within a MongoDB database. Each file contains one or more record.
 
-The script you write should import all files when executed only once. You should not need to run the script 50 separate times to import all files.
+The script you write should import every individual record when executed once. You cannot run the script 50 separate times to import all files and records.
 
 The data for import can be found in the `data/` directory of this repository.
 
