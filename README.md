@@ -116,7 +116,7 @@ mongoimport --uri $MONGODB --collection test data.json --jsonArray
 Note these details:
 
 - The DB name should already be specified as part of the URI you created above.
-- The collection should be specified in the command. You can create a new collection by simply naming it here. this wxample imports into a collection mamed "test".
+- The collection should be specified in the command. You can create a new collection by simply naming it here. This example imports into a collection mamed "test".
 - The data file itself is then passed.
 - Finally, you must indicate that you are passing in a `--jsonAarray` for the command to succeed.
 
