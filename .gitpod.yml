@@ -3,6 +3,6 @@ tasks:
       wget -qO- https://www.mongodb.org/static/pgp/server-7.0.asc | sudo tee /etc/apt/trusted.gpg.d/server-7.0.asc && echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list && sudo apt update && sudo apt install -y mongodb-mongosh mongodb-database-tools && echo "alias MONGO-ATLAS='mongosh "mongodb+srv://nmagee:20oRGqjmo88JOF0k@cluster0.pnxzwgz.mongodb.net/" --apiVersion 1'" > ~/.bashrc
       gp sync-done installation
   - init: gp sync-await installation
-    command: source ~/.bashrc
+    command: source ~/.bashrc && exit
   - name: pip
-    command: pip install -r requirements.txt
+    command: pip install -r requirements.txt && exit
