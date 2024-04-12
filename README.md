@@ -147,7 +147,7 @@ else:
 
 ## 6. Error Handling
 
-You may encounter an error when importing this stack of files. Your code should be able to handle this without breaking. You do not need to log your errors but your code should continue processing additional files.
+You may encounter an error when importing this stack of files. Your code should be able to handle this without breaking. You do not need to log your errors but your code should continue processing additional records as much as possible.
 
 Remember to assess where in your flow the errors occur, and handle them accordingly at each/any/every point with separate handlers as needed.
 
