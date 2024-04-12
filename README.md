@@ -51,13 +51,13 @@ collection = db.<collection-name>
 
 ### `mongoimport` in Gitpod
 
-If using `mongoimport` within a `bash` script in Gitpod, you can create a new Gitpod User Variable with your full URI.
+If using `mongoimport` within a `bash` script in Gitpod, you should create a new Gitpod User Variable with your full URI (including username, password, host address, and DB name).
 
 For instance, you could create a new variable named `MONGODB` with a value of `mongodb+srv://nmagee:xxxxxxxxxxx@cluster0.pnxzwgz.mongodb.net/<YOUR-DB>`
 
 Note that you should replace the `xxxxxx` with the actual password, and replace `<YOUR-DB>` with the name of your MongoDB database. **Your URI must specify a database at the end.**
 
-Then you can call this URI within a terminal command to connect automatically each time you use it like this:
+Then you can call this URI within a terminal command to connect automatically each time with each invocation like this:
 
 ```
 mongoimport --uri $MONGODB --collection test  data.json --jsonArray
