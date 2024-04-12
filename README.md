@@ -147,6 +147,10 @@ else:
 
 You may encounter an error when importing this stack of files. Your code should be able to handle this without breaking. You do not need to log your errors but your code should continue processing additional files.
 
+Remember to assess where in your flow the errors occur, and handle them accordingly at each/any/every point with separate handlers as needed.
+
+If you cannot elegantly handle the errors you may want to change your approach, or even your programming language.
+
 ## 7. Testing / Clearing Your Collection
 
 As you test your code, MongoDB will not allow you to re-import files that have already been imported. To drop the collection to test again, open `mongosh` by typing `MONGO-ATLAS` in the Gitpod terminal.
@@ -159,9 +163,9 @@ db.COLLECTION.drop()    # where COLLECTION is the name of your collection
 
 ## 8. Import Count
 
-After successfully importing all files, determine how many documents have been imported into your collection.
+After successfully importing all complete records contained in all the files, determine how many documents have been imported into your collection. You may want to compare this against an actual count of complete, individual JSON records in the `data/`directory. (This may require a little bit of side coding of its own!)
 
-Note this number in a file named `count.txt` and add it to your repository.
+Note the number of records you can successfully impormt in a file named `count.txt` and add it to your repository.
 
 ## 9. Submit
 
