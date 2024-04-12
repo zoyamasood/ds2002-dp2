@@ -25,6 +25,8 @@ See [this page](https://canvas.its.virginia.edu/courses/105117/pages/mongodb-cre
 
 DO NOT commit the password to your GitHub repository!
 
+For command-line access to MongoDB you have `MONGO-ATLAS` as an available command pre-built into your Gitpod configuration.
+
 ### Python in Gitpod
 
 If using Python in Gitpod you already have the `MONGOPASS` environment variable and can then connect to a db/collection in Atlas using this code:
