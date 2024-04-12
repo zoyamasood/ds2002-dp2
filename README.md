@@ -177,3 +177,14 @@ Note the number of records you can successfully import in a file named `count.tx
 Add, commit, and push your working script and the `count.txt` file to your fork of the repository.
 
 Submit the GitHub URL of your fork for grading.
+
+### Grading Rubric
+
+| Element  | Points |
+|---|---|
+| Setup  | 1  |
+| Connection  | 2  |
+| Looping through files | 3  |
+| Inserting into DB  | 4  |
+| Error Handling  | 4  |
+| Count accuracy  | 2  |
