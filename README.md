@@ -176,7 +176,7 @@ Note the number of records you can successfully import in a file named `count.tx
 
 Add, commit, and push your working script and the `count.txt` file to your fork of the repository.
 
-Submit the GitHub URL of your fork for grading.
+Submit the GitHub URL of your fork for grading. This DP is worth 17 possible points.
 
 ### Grading Rubric
 
