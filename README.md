@@ -168,7 +168,7 @@ db.COLLECTION.drop()    # where COLLECTION is the name of your collection
 After successfully importing all complete records contained in all the files, determine how many:
 
 - complete documents have been imported into your collection
-- complete documents could not be imported
+- complete documents that could not be imported
 - corrupted documents exist in the fileset 
 
 Note the number of records for each category in the file named `count.txt` and commit it to your repository.
